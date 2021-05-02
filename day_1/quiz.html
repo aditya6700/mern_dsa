@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./quiz.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" 
+        integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" 
+        crossorigin="anonymous" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Quiz</title>
+</head>
+<body onload="loadingfun()">
+
+    <div class="loader" id="loader">
+        <div class="load">
+            <div class="circle"></div>
+            <h1>loading...</h1>
+        </div> 
+    </div>
+
+
+    <div class="container">
+        <div class="head">
+            <h1>Guess these ...🤔</h1>
+        </div>
+        <div class="content"> 
+            <form id="form" class="form">
+                <div class="ques_wrapper" >
+                    <img src="./images/reactjs.png" id="reactlogo" alt="react">
+                    <div class="inp">
+                        <input type="text" id="react" autocomplete="off" required>
+                        <label for="react">answer</label>
+                        <i class="fa fa-2x fa-check-circle" aria-hidden="true"></i>
+                        <i class="fa fa-2x fa-times-circle" aria-hidden="true"></i>   
+                    </div>
+                </div>
+                <div class="ques_wrapper">
+                    <img src="./images/nodejs.png" alt="node">
+                    <div class="inp">
+                        <input type="text" id="node" autocomplete="off" required> 
+                        <label for="node">answer</label>
+                        <i class="fa fa-2x fa-check-circle" aria-hidden="true"></i>
+                        <i class="fa fa-2x fa-times-circle" aria-hidden="true"></i>   
+                    </div>
+                </div>
+                <div class="ques_wrapper ">
+                    <img src="./images/raspi.png" alt="raspi">
+                    <div class="inp">
+                        <input type="text" id="raspi" autocomplete="off" required>
+                        <label for="raspi">answer</label>
+                        <i class="fa fa-2x fa-check-circle" aria-hidden="true"></i>
+                        <i class="fa fa-2x fa-times-circle" aria-hidden="true"></i>   
+                    </div>
+                </div>
+                <div class="ques_wrapper ">
+                    <img src="./images/nodemcu.png" alt="mcu">
+                    <div class="inp">
+                        <input type="text" id="mcu" autocomplete="off" required>
+                        <label for="mcu">answer</label>
+                        <i class="fa fa-2x fa-check-circle" aria-hidden="true"></i>
+                        <i class="fa fa-2x fa-times-circle" aria-hidden="true"></i>   
+                    </div>
+                </div>
+                <button type="submit" class="checking">validate</button>
+            </form>
+        </div>
+    </div>
+    <script src="./quiz.js"></script>
+    <style>
+        .ques_wrapper img{
+            width: 25rem;
+            height: auto;
+        }
+    </style>
+</body> 
+</html>
