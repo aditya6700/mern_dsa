@@ -1,0 +1,17 @@
+use all the tags which we have learnt today
+1. formatting
+    -abbr
+    -b strong
+    -i em
+    -blockquote
+    -kbd code
+    -highlight text
+    -pre 
+    -delete text
+    -how to write formulae
+2. lists
+3. images
+4. links
+
+use all the tags mentioned above or it is upto you
+create a wonderful website using all these

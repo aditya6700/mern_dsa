@@ -14,7 +14,13 @@
     - basic tags
     - attributes
     - metadata
+4. web dev
+
+## Day - 3 [04/05/2021]
+1. Getting started with HTML
+    - attributes
     - formatting
     - images
     - lists
-4. web dev
+    - links
+2. web dev
