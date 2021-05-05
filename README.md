@@ -24,3 +24,10 @@
     - lists
     - links
 2. web dev
+
+## Day - 4 [05/05/2021]
+1. HTML
+    - forms
+    - frames
+    - audio/video
+    - Styles and Semantics (part a)

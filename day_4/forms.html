@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <ol>
+        <li>form</li>
+        <li>fieldset</li>
+        <li>legend</li>
+        <li>label</li>
+        <li>input</li>
+        <li>textarea</li>
+        <li>select</li>
+        <li>optgroup</li>
+        <li>option</li>
+        <li>button</li>
+    </ol>
+
+    <br>
+    <hr><hr>
+    <br>
+
+    <form>
+
+        <fieldset>
+            <legend>if you do not fill the details you will die</legend>
+
+        <fieldset>
+            <legend>login details</legend>
+            <label for="username"> Username</label>
+            <input 
+                id="username"
+                type="text"
+                placeholder="enter your name">
+            
+    
+            <br><br>
+    
+            <label for="pass">Password</label>
+            <input 
+                id="pass"
+                type="password"
+                placeholder="your password goes here">
+         
+          
+            <br><br>
+        
+
+            <label for="email">eamil</label>
+            <input 
+                id="email"
+                type="text"
+                placeholder="your email">
+
+        </fieldset>
+
+            <br><br>
+    
+        <fieldset>
+            <legend>personal details</legend>
+
+            <label for="ph">Phone</label>
+            <input 
+                type="number"  
+                id="ph"
+                placeholder="mobile no">
+    
+    
+            <br><br>
+    
+            <label for="clgname">select your college</label>
+            <select  id="clgname">
+                <option value="JNTU" > JNTU </option>
+                <option value="MRET" > MRET </option>
+                <option value="SVIT" > SVIT </option>
+                <option value="CMRIT" > CMRIT </option>
+                <option value="MLRIT" > MLRIT </option>
+            </select>
+    
+            <br><br>
+    
+            <label for="bandi">select your vehicle</label>
+            <select  id="bandi">
+    
+                <optgroup label="bhoomi mede veltavaa ?">
+                    <option value="cars">cars</option>
+                    <option value="bike">bike</option>
+                    <option value="bus">bus</option>
+                </optgroup>
+                
+                <optgroup label="gali lo veltavaa ?">
+                    <option value="chopper">chopper</option>
+                    <option value="plane">plane</option>
+                </optgroup>
+    
+                <optgroup label="neellalo veltava ?">
+                    <option value="ship">ship</option>
+                    <option value="yatcht">yacht</option>
+                    <option value="boat">boat</option>
+                </optgroup>
+    
+            </select>
+        </fieldset>
+    
+        <br><br>
+
+        <fieldset>
+            <legend>extras</legend>
+            <label for="comm">comments</label>
+            <textarea 
+                id="comm"  
+                cols="30" 
+                rows="5">
+            </textarea>
+        </fieldset>
+
+        <br><br>
+    
+        <input 
+            type="submit" 
+            value="log in" >
+            
+        </fieldset>
+    </form>
+
+
+
+    <br><br>
+    <br><br>
+    <br><br>
+</body>
+</html>
