@@ -27,7 +27,17 @@
 
 ## Day - 4 [05/05/2021]
 1. HTML
+    - HW error correction 
     - forms
+
+
+## Day - 5 [06/05/2021]
+1. HTML
+    - tables
     - frames
     - audio/video
-    - Styles and Semantics (part a)
+
+## Day - 5 [06/05/2021]
+1. Styles and Semantics
+2. Wrapping up HTML
+3. Tips and Tricks for VSCode
