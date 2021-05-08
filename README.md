@@ -37,7 +37,15 @@
     - frames
     - audio/video
 
-## Day - 5 [06/05/2021]
+## Day - 6 [07/05/2021]
 1. Styles and Semantics
 2. Wrapping up HTML
-3. Tips and Tricks for VSCode
+
+## Day - 7 [10/05/2021]
+1. Missed topics
+    - meter tags
+    - progress bars
+    - date and time
+2. Tips and tricks for VSCode
+
+
