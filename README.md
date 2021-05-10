@@ -46,6 +46,8 @@
     - meter tags
     - progress bars
     - date and time
+    - detail
+    - datalist
 2. Tips and tricks for VSCode
 
 
