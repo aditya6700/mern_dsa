@@ -14,7 +14,6 @@
     - basic tags
     - attributes
     - metadata
-4. web dev
 
 ## Day - 3 [04/05/2021]
 1. Getting started with HTML
@@ -23,7 +22,6 @@
     - images
     - lists
     - links
-2. web dev
 
 ## Day - 4 [05/05/2021]
 1. HTML
@@ -50,4 +48,14 @@
     - datalist
 2. Tips and tricks for VSCode
 
-
+## Day - 8 [11/05/2021]
+1. Introduction & Overview
+    - Introduction
+    - How to use
+        - Syntax
+        - Adding CSS to HTML
+2. Basic Styling
+    - Background
+    - Text styling
+    - Borders
+    - List styling
