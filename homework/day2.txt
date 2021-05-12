@@ -1,5 +1,0 @@
-1. create a HTML page using cmd
-2. practice all the tags 
-    - h1 to h6
-    - p / br
-3. create a simple webpage using all these

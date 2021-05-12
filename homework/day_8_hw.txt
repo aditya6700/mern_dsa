@@ -1,7 +1,0 @@
-use internal css or externall css
-create as amany as div as you want
-use all the style which we have learnt today
-text
-border
-background
-list

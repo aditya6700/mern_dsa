@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300;400&family=Oswald:wght@200;400;600&display=swap');
+
+body{
+    margin: 0;
+    /* background-color: black; */
+}
+
+ /* text styling */
+.textstyle{
+    background-color: aquamarine;
+    margin: 15px;
+    border: 5px dotted blue;
+    padding: 20px 18px 15px 15px;
+}
+
+ h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: crimson;
+    text-align: center;
+}
+
+ h3{
+    padding: 10px;
+    letter-spacing: 5px;
+    text-align: right;
+    text-transform: capitalize;
+    text-decoration: underline;
+    word-spacing: 8px;
+}
+
+#para1{
+    text-align: justify;
+}
+#stand{
+    background-color: red;;
+}
+#para2{
+    text-align: center;
+}
+
+
+/* list styling */
+.list_style{
+    margin: 10px;
+    background-color: burlywood;
+    border: 5px double chocolate;
+    padding: 20px 24px;
+    /* text-align: center; */
+}
+
+.list_style h3{
+    text-align: left;
+}
+
+
+.list1{
+    width: 500px;
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+}
+
+.list2{
+    list-style-type: square;
+    list-style-position: outside;
+}
+
+
+/* link styling */
+.link_style{
+    background-color: powderblue;
+    margin: 15px;
+    border: 5px dashed cornflowerblue;
+    padding: 20px;
+}
+
+.link_style h3{
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+
+.link_style ol{
+    font-size: 20px;
+    list-style-type: lower-greek;
+}
+
+.mylink{
+    padding-left: 25px;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+.mylink:visited{
+    color: red;
+}
+
+.mylink:hover{
+    color: #fdcb6e;
+}
+
+.mylink:active{
+    color: #00b894;
+}
+
+/* button styling */
+.button_style{
+    background-color: pink;
+    margin: 15px;
+    border: 5px solid palevioletred;
+    padding: 20px 18px;
+}
+
+.button_style button{
+    margin: 15px;
+    padding: 10px;
+    font-size: 24px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#btn1{
+    background-color: green;
+    color: whitesmoke;
+}
+
+#btn1:hover{
+    color: green;
+    background-color: #fff;
+    border: 2px solid green;
+}
+
+#btn2{
+    background-color: red;
+    color: #fff;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+#btn3,#btn4{
+    text-transform: capitalize;
+}
+i{
+    color: black;
+}
+
+#realme{
+    width: 14px;
+    height: auto;
+}
+
+#apple{
+    color: purple;
+}
+
+#real{
+    color: #d63031;
+}

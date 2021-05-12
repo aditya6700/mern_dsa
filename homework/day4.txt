@@ -1,8 +1,0 @@
-create a form with all the available tags which we disscussed today
-rules
--------------
-1. there should be of minimum 3 form sets
-2. each set should contain on min 3 and max 5 fields
-3. you should use every tag for once 
-
-each and everyone form should be unique

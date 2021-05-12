@@ -1,0 +1,14 @@
+/* accessing using tags  */
+h1{
+    color: palevioletred;
+}
+
+/* accessing using id  */
+#sai{
+    color: blue
+}
+
+/* accessing using class  */
+.myhead{
+    color: darkred;
+}

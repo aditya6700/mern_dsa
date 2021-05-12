@@ -56,6 +56,15 @@
         - Adding CSS to HTML
 2. Basic Styling
     - Background
-    - Text styling
+    - Text styling 
     - Borders
     - List styling
+
+## Day - 9 [12/05/2021]
+1. Basic Styling
+    - importing URL's
+    - margin
+    - padding
+    - link styling
+    - button styling
+    - adding icons
