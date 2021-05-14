@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+
+img{
+    width: 250px;
+    float: left;
+    margin-right: 10px;
+}
+
+.txt{
+    background-color: #000;
+    color: wheat;
+    width: 80%;
+    height: auto;
+    margin: 100px auto;
+    /* text-indent: 50px; */
+   /* float: left; */
+   text-align: justify;
+
+   text-transform: lowercase;
+  
+}
+
+article{
+    direction: rtl;
+}
+

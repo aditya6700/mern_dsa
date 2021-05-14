@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background</title>
+    <style>
+        *{
+            padding: 0; margin: 0;
+            box-sizing: border-box;
+        }
+        .parent{
+            width: 100%;
+            height: 665px;
+            background-color: #636e72;
+            position: relative;
+        }
+
+        .parent h1{
+            color:#d63031;
+            font-size: 54px;
+            text-transform: uppercase;
+            letter-spacing: 8px;
+            text-align: center;
+            /* text-shadow: Xval Yval blur spread color; */
+            text-shadow: 8px 6px 6px #dfe6e9;
+        }
+        .child{                
+            width: 70%;
+            height: 70%;
+            background-color: #fff;
+            position: absolute;
+            left: calc(50% - 35%); 
+            top: calc(50% - 35%); 
+
+            /* background: linear-gradient( direction, color1, color2 ); */
+            /* background: linear-gradient(75deg, #0984e3, #d63031); */
+            /* background: linear-gradient(234deg, rgba(184,0,255,1) 0%, rgba(226,0,0,1) 100%); */
+
+            /* background: radial-gradient(shape direction, color1, color2); */
+            /* background: radial-gradient(circle closest-side, #1B1464, #009432, #F79F1F, #B53471); */
+            background: radial-gradient(circle, rgba(184,0,255,1) 0%, rgba(226,0,0,1) 100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <h1>gradient</h1>
+        <div class="child">
+
+        </div>
+    </div>
+</body>
+</html>

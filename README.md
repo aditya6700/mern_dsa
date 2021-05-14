@@ -68,3 +68,41 @@
     - link styling
     - button styling
     - adding icons
+
+
+## Day - 10 [13/05/2021]
+1. Display and Positions
+   - Display
+   - Position
+   - Overflow
+   - float
+2. Shadows
+   - Text shadow
+   - box shadow
+
+
+## Day - 11 [14/05/2021]
+1. Display and Position
+   - Overflow
+   - float
+   - text-indent
+2. Shadows
+   - Text shadow
+   - box shadow
+3. Backgrounds
+4. Gradients
+   - linear gradient
+   - radial gradient
+
+
+## Day - 12 [15/05/2021]
+1. Box-model
+2. box-sizing
+3. z-index
+4. Effects
+   - Transform
+   - Translate
+   - Rotate
+   - Skew
+   - Scale
+5. Transition

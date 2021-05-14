@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background</title>
+    <style>
+        *{
+            padding: 0; margin: 0;
+            box-sizing: border-box;
+        }
+        .parent{
+            width: 100%;
+            height: 665px;
+            background-color: rgb(50, 50, 56);
+            position: relative;
+            /* background-image: url('../images/goku2.jpg'); */
+            /* background-attachment: fixed; */
+        }
+        .child{                
+            width: 70%;
+            height: 70%;
+            background-color: #fff;
+            position: absolute;
+            left: calc(50% - 35%); 
+            top: calc(50% - 35%); 
+            background-image:  url('../images/image2.jpg');
+            background-size: 100% 100%;
+            /* background-repeat: repeat-y; */
+            /* background-position: center; */
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+
+        </div>
+    </div>
+</body>
+</html>
