@@ -105,4 +105,14 @@
    - Rotate
    - Skew
    - Scale
-5. Transition
+
+## Day - 13 [19/05/2021]
+1. Transition
+2. Responsive Desgin
+   - viewport
+   - dynamic size
+
+
+## Day - 14 [20/05/2021]
+1. media queries
+2. Animaiton
