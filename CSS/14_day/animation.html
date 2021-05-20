@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .parent{
+            height: 100vh;
+            width: 100vw;
+            background-color: #485460;
+            position: relative;
+        }
+        .child{
+            width: 50%;
+            height: 50%;
+            background-color: #F8EFBA;
+            /* border-top: 20px solid #F97F51; */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            /* animation-name: moving;
+            animation-duration: 1s;
+            animation-timing-function: linear;
+            animation-iteration-count: 4;
+            animation-direction: alternate;
+            animation-fill-mode: forwards; */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: color_change 6s linear infinite alternate forwards;
+        }
+        .child:hover{
+            animation-play-state: paused;
+        }
+
+        /* @keyframes moving {
+            0%{
+                top: 20%;
+                left: 10%;
+            }
+            100%{
+                top: 20%;
+                left: 70%;
+            }
+        } */
+
+        @keyframes color_change {
+            0%{
+                background-color: #009432;
+            }
+            25%{
+                background-color: #6F1E51;
+            }
+            50%{
+                background-color: #1B1464;
+            }
+            75%{
+                background-color: #FFC312;
+            }
+            100%{
+                background-color: #EA2027;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="parent">
+        <div class="child">
+
+        </div>
+    </div>
+
+</body>
+</html>

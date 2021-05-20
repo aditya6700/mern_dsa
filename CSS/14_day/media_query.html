@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media queries</title>
+    <style>
+        *{
+            padding: 0; margin: 0;
+            box-sizing: border-box;
+        }
+        h1{
+            margin: 50px 100px 0 100px;
+            font-size: 64px;
+            text-transform: uppercase;
+            color: #009432;
+        }
+
+
+        @media screen and (max-width: 992px){
+            h1{
+                font-size: 48px;
+            }
+        }
+        @media (max-width: 768px){   /* 0 to 768 */
+            h1{
+                color: #ED4C67;
+            }
+        }
+        @media (min-width:500px) and (max-width: 700px){  /* 500 to 700*/
+            h1{
+                font-size: 24px;
+                text-transform: lowercase;
+                text-decoration: line-through;
+                margin-top: 200px;
+            }
+        }
+
+        @media (max-width: 350px) {
+            h1{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>this is an example of media query</h1>
+
+</body>
+</html>
