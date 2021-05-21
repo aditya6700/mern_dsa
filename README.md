@@ -115,4 +115,16 @@
 
 ## Day - 14 [20/05/2021]
 1. media queries
-2. Animaiton
+2. Animation
+
+## Day - 15 [21/05/2021]
+1. Flex layout
+   - flex-direction
+   - flex-wrap
+   - flex-flow
+   - justify-content
+   - align-items
+   - flex-basis
+   - order
+   - flex-grow
+   - flex-shrink
