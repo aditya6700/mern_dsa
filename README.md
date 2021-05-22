@@ -120,11 +120,40 @@
 ## Day - 15 [21/05/2021]
 1. Flex layout
    - flex-direction
-   - flex-wrap
-   - flex-flow
    - justify-content
    - align-items
-   - flex-basis
+   - flex-wrap
    - order
+   - flex-basis
    - flex-grow
    - flex-shrink
+   - flex
+
+## Day - 16 [22/05/2021]
+1. Grid layout
+   - grid-template-rows
+   - grid-template-columns
+   - repeat
+   - grid-gap
+       - grid-row-gap
+       - grid-column-gap
+   - grid-row
+       - grid-row-end
+       - grid-row-start
+   - grid-column
+       - grid-column-start
+       - grid-column-end
+   - x-axis alignment
+       - justify-items
+       - justify-content
+       - justify-self (child) 
+   - y-axis alignment
+       - align-items
+       - align-content
+       - align-self (child)
+   - place-items
+   - place-content
+   - place-self (child)
+   - min-content
+   - max-content
+   - minmax
