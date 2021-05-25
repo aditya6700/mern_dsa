@@ -1,13 +1,13 @@
 # **MERN STACK WEB DEVELOPMENT**
 
-## Day - 1 [02/05/2021]
+## Day - 1 [02/05/2021] -- overview and intro
 1. Getting started with VSCode
 2. Getting started with Git****
 3. Intro to HTML and HTML5
 4. Intro to CSS and CSS3
 5. Intro to JavaScript
 
-## Day - 2 [03/05/2021]
+## Day - 2 [03/05/2021] -- overview and intro
 1. Git continued
 2. Setting up VSCode
 3. Getting started with HTML
@@ -15,7 +15,7 @@
     - attributes
     - metadata
 
-## Day - 3 [04/05/2021]
+## Day - 3 [04/05/2021] -- HTML
 1. Getting started with HTML
     - attributes
     - formatting
@@ -23,23 +23,23 @@
     - lists
     - links
 
-## Day - 4 [05/05/2021]
+## Day - 4 [05/05/2021] -- HTML
 1. HTML
     - HW error correction 
     - forms
 
 
-## Day - 5 [06/05/2021]
+## Day - 5 [06/05/2021] -- HTML
 1. HTML
     - tables
     - frames
     - audio/video
 
-## Day - 6 [07/05/2021]
+## Day - 6 [07/05/2021] -- HTML
 1. Styles and Semantics
 2. Wrapping up HTML
 
-## Day - 7 [10/05/2021]
+## Day - 7 [10/05/2021] -- HTML
 1. Missed topics
     - meter tags
     - progress bars
@@ -48,7 +48,7 @@
     - datalist
 2. Tips and tricks for VSCode
 
-## Day - 8 [11/05/2021]
+## Day - 8 [11/05/2021] -- CSS3
 1. Introduction & Overview
     - Introduction
     - How to use
@@ -60,7 +60,7 @@
     - Borders
     - List styling
 
-## Day - 9 [12/05/2021]
+## Day - 9 [12/05/2021] -- CSS3
 1. Basic Styling
     - importing URL's
     - margin
@@ -70,7 +70,7 @@
     - adding icons
 
 
-## Day - 10 [13/05/2021]
+## Day - 10 [13/05/2021] -- CSS3
 1. Display and Positions
    - Display
    - Position
@@ -81,7 +81,7 @@
    - box shadow
 
 
-## Day - 11 [14/05/2021]
+## Day - 11 [14/05/2021] -- CSS3
 1. Display and Position
    - Overflow
    - float
@@ -95,7 +95,7 @@
    - radial gradient
 
 
-## Day - 12 [15/05/2021]
+## Day - 12 [15/05/2021] -- CSS3
 1. Box-model
 2. box-sizing
 3. z-index
@@ -106,18 +106,18 @@
    - Skew
    - Scale
 
-## Day - 13 [19/05/2021]
+## Day - 13 [19/05/2021] -- CSS3
 1. Transition
 2. Responsive Desgin
    - viewport
    - dynamic size
 
 
-## Day - 14 [20/05/2021]
+## Day - 14 [20/05/2021] -- CSS3
 1. media queries
 2. Animation
 
-## Day - 15 [21/05/2021]
+## Day - 15 [21/05/2021] -- CSS3
 1. Flex layout
    - flex-direction
    - justify-content
@@ -129,7 +129,7 @@
    - flex-shrink
    - flex
 
-## Day - 16 [22/05/2021]
+## Day - 16 [22/05/2021] -- CSS3
 1. Grid layout
    - grid-template-rows
    - grid-template-columns
@@ -157,3 +157,34 @@
    - min-content
    - max-content
    - minmax
+
+
+## Day - 17 [23/05/2021] -- HTML & CSS
+1. SAD Project 
+
+## Day - 18 [25/05/2021] -- CSS3 Advance
+1. CSS variables
+2. selection selector
+3. centering div
+4. centering text
+5. CSS selectors
+   - Simple Selectors
+       - type selector
+       - class selector
+       - ID selector
+       - Universal selector 
+
+
+## Day - 19 [26/05/2021] -- CSS3 Advance
+1. Pseudo classes
+   - :hover 
+   -  Number based
+     - :first-child
+     - :last-child
+     - nth-child()
+2. Pseudo elements
+    - ::before
+    - ::after
+    - ::first-letter
+    - ::first-line
+    - ::selection

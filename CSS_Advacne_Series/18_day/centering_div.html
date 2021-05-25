@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>centering div</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .parent{
+            background-color: #5352ed;
+            height: 100vh;
+            width: 100vw;
+        }
+        .child{
+            background-color: #ff6b81;
+            height: 400px;
+            width: 600px;
+        }
+
+        /* centering div  */
+        /* #method - 1 */
+        /* .parent{
+            position: relative;
+        }
+        .child{
+            position: absolute;
+            left: calc(50% - 300px);
+            top: calc(50% - 200px);
+        } */
+
+        /* #method - 2 */
+        /* .parent{
+            position: relative;
+        }
+        .child{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        } */
+
+        /* #method - 3 */
+        /* .parent{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        } */
+
+        /* #method - 4 */
+        .parent{
+            display: grid;
+            place-items: center;
+            /* justify-items: center;
+            align-items: center; */
+        }
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="parent">
+        <div class="child"></div>
+    </div>
+
+</body>
+</html>

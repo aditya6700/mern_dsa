@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css varibales</title>
+    <style>
+        *{
+            padding: 0; margin: 0;
+            box-sizing: border-box;
+        }
+
+        /* creating variables */
+        :root{
+           /* syntax:
+           --variable_name: value;  */
+           --head_clr: blue;
+           --paraSize: 24px;
+           --y_offset: 18px;
+        }
+
+        h1{
+            color: var(--head_clr);
+        }
+        h2{
+            color: var(--head_clr);
+        }
+        h3{
+            color: var(--head_clr);
+        }
+    
+        #para1{
+            color: red;
+            font-size: var(--paraSize);
+        }
+
+        #para2{
+            color: goldenrod;
+            /* font-size: var(--paraSize); */
+            font-size: 20px;
+        }
+
+        #para3{
+            color: goldenrod;
+            font-size: var(--paraSize);
+            text-shadow: 2px var(--y_offset) 8px gray;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>hi hello how are you</h1>
+
+    <p id="para1">Roeterseiland Campus Building E
+        6th floor London
+        Monday to Friday : 9am to 8p
+        examplemail.mail.com</p>
+
+    <h2>this is an example of heading 2</h2>
+    <p id="para2">Roeterseiland Campus Building E
+        6th floor London
+        Monday to Friday : 9am to 8p
+        examplemail.mail.com</p>
+
+    <h3>this is an example of heading 2</h3>
+    <p id="para3">Roeterseiland Campus Building E
+        6th floor London
+        Monday to Friday : 9am to 8p
+        examplemail.mail.com</p>
+</body>
+</html>
