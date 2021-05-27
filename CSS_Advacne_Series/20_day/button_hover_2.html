@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>button hover</title>
+    <style>
+        *{
+            padding: 0; margin: 0;
+            box-sizing: border-box;
+        }
+        .parent{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000;
+        }
+
+        a{
+            color: #fff;
+            font-size: 48px;
+            padding: 18px 48px;
+            border: 5px solid #fff;
+            text-decoration: none;
+            position: relative;
+            overflow: hidden;
+        }
+
+        a::before{
+            content: 'forever';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-color: #ff3f34;
+            display: grid;
+            place-items: center;
+            left: 0;
+            top: 0;
+            transform: translateY(-100%);
+            transition: all 0.5s linear;
+        }
+
+        a:hover::before{
+            transform: translateY(0)
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <a href="#">cricket</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fist line and first letter</title>
+    <style>
+           *{
+            padding: 0; margin: 0;
+            box-sizing: border-box;
+        }
+        .parent{
+            width: 100%;
+            height: 100vh;
+            background-color: #40407a;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 0 80px;
+        }
+        p{
+            color: #fff;
+            text-align: justify;
+            font-size: 24px;
+            letter-spacing: .5px;
+        }
+        #para1{
+            color: #fff;
+            font-size: 24px;
+        }
+        #para1::first-letter{
+            color: red;
+            font-size: 70px;
+            float: left;
+            margin-right: 5px;
+            /* border: 1px solid red; */
+           
+        }
+        #para1::first-line{
+            color: rgb(0,230,0);
+        }
+
+        #para2::first-letter{
+            color: crimson;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <!-- <div class="child"> -->
+            <p id="para1">D Sai Aditya Devulapalli, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque elit eget gravida cum. Nunc scelerisque viverra mauris in aliquam sem fringilla ut morbi. Eu facilisis sed odio morbi quis commodo odio aenean sed. Auctor augue mauris augue neque gravida. Diam sit amet nisl suscipit. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Sit amet tellus cras adipiscing enim eu. Nibh ipsum consequat nisl vel pretium lectus quam id. Cursus euismod quis viverra nibh cras pulvinar mattis nunc. Odio morbi quis commodo odio aenean sed adipiscing diam donec. Risus in hendrerit gravida rutrum quisque non tellus orci. Habitant morbi tristique senectus et netus. Non arcu risus quis varius quam quisque. Mauris augue neque gravida in fermentum et sollicitudin. Sed odio morbi quis commodo odio aenean sed. Porta lorem mollis aliquam ut porttitor leo a diam. Amet nisl purus in mollis nunc sed id.
+            </p>
+            <p id="para2"> Aliquam id diam maecenas ultricies mi. Id ornare arcu odio ut sem nulla. Tincidunt ornare massa eget egestas purus viverra accumsan. Consectetur a erat nam at lectus urna duis convallis convallis. Tristique senectus et netus et malesuada fames ac turpis egestas. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Pellentesque eu tincidunt tortor aliquam. Vitae tempus quam pellentesque nec nam aliquam sem. Feugiat nisl pretium fusce id velit ut. Vel turpis nunc eget lorem dolor sed viverra ipsum.
+            </p>
+            <p id="para3"> Aliquam id diam maecenas ultricies mi. Id ornare arcu odio ut sem nulla. Tincidunt ornare massa eget egestas purus viverra accumsan. Consectetur a erat nam at lectus urna duis convallis convallis. Tristique senectus et netus et malesuada fames ac turpis egestas. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Pellentesque eu tincidunt tortor aliquam. Vitae tempus quam pellentesque nec nam aliquam sem. Feugiat nisl pretium fusce id velit ut. Vel turpis nunc eget lorem dolor sed viverra ipsum.
+            </p>
+        <!-- </div> -->
+    </div>
+    
+</body>
+</html>

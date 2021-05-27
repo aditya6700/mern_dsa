@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo classes</title>
+    <style>
+        *{
+            padding: 0; margin: 0;
+            box-sizing: border-box;
+        }
+        .parent{
+            width: 100vw;
+            height: 100vh;
+            background-color: #57606f;
+            display: grid;
+            place-items: center;
+        }
+        li{
+            list-style-type: square;
+            font-size: 24px;
+            color: #fff;
+        }
+        li:first-child{
+            color: red;
+        }
+        li:last-child{
+            color: yellow;
+        }
+
+        li:nth-child(2n){
+            color: #f53b57;
+        }
+        li:nth-child(3n){
+            color: #e77f67;
+        }   
+
+        li:nth-child(5):hover{
+            color: aqua;
+            transform: scale(2);
+            /* font-size: 38px; */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+            <li>four</li>
+            <li>five</li>
+            <li>six</li>
+            <li>seven</li>
+            <li>eight</li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>before and after</title>
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&display=swap" rel="stylesheet">
+    <style>
+        @import url("https://use.fontawesome.com/releases/v5.14.0/css/all.css"); 
+        *{
+            padding: 0; margin: 0;
+            box-sizing: border-box;
+        }
+
+        :root{
+            --bw_lg: 15vw;
+            --bw_md: 20vw;
+            --bw_sm: 40vw;
+        }
+
+        .parent{
+            width: 100vw;
+            height: 100vh;
+            background-color: #ff3838;
+            display: grid;
+            place-items: center;
+        }
+        .child{
+            width: 50vw;
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+        h1{
+            color: #1e90ff;
+            font-size: 48px;
+            font-family: 'Grenze Gotisch', cursive;
+            text-shadow: 0 2px 5px rgba(63,61,61,.6);
+            text-transform: capitalize;
+            position: relative;
+        }
+
+        h1::before{
+            content: '';
+            width: var(--bw_lg);
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            border-top: 5px solid black;
+        }
+
+        h1::after{
+            content: "";
+            width: var(--bw_lg);
+            position: absolute;
+            bottom: -12%;
+            left: 50%;
+            transform: translateX(-50%);
+            border-bottom: 5px solid black;
+        }
+
+        h2{
+            color: #1e90ff;
+            font-size: 38px;
+            font-family: 'Grenze Gotisch', cursive;
+            text-shadow: 0 2px 5px rgba(63,61,61,.6);
+            text-transform: capitalize;
+            position: relative;
+        }
+        
+        h2::before{
+            content: '';
+            position: absolute;
+            left: 50%;
+            bottom: -12%;
+            transform: translateX(-50%);
+            width: calc(100vw - 80vw);
+            border-bottom: 5px solid greenyellow;
+        }
+         
+        h2::after{
+            content: '❤';
+            position: absolute;
+            color: yellow;
+            left: 50%;
+            bottom: -12%;
+            line-height: 1px;
+            text-align: center;
+
+            transform: translateX(-50%);
+            width: calc(100vw - 80vw);
+            
+        }
+
+        @media (min-width: 767px) and (max-width: 990px){
+            h1::before{
+                width: var(--bw_md);
+            }
+            h1::after{
+                width: var(--bw_md);
+            }
+        }
+        @media (max-width: 768px){
+            h1::before{
+                width: var(--bw_sm);
+            }
+            h1::after{
+                width: var(--bw_sm);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+            <h2>cricket</h2>
+            <h1>sai aditya devulapalli</h1>
+        </div>
+    </div>
+</body>
+</html>
