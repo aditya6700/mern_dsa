@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>floating text</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0; margin: 0;
+            box-sizing: border-box;
+        }
+
+        .parent{
+            width: 100vw;
+            height: 100vh;
+            background-color: #485460;
+            position: relative;
+        }
+        .child{
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        h1{
+            font-size: 52px;
+            font-family: 'Josefin Sans', sans-serif;
+            text-transform: capitalize;
+            color: #fff;
+            text-align: center;
+            text-shadow: 5px 12px 5px #1e272e;
+            animation: see_saw 2s linear infinite;
+            animation-direction: alternate;
+        }
+
+        @keyframes see_saw {
+            0%{
+                transform: rotate(-8deg);
+            }
+            100%{
+                transform: rotate(8deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+            <h1>sai charan chodimella<br> darkrai</h1>
+        </div>
+    </div>
+</body>
+</html>

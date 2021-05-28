@@ -188,3 +188,18 @@
     - ::first-letter
     - ::first-line
     - ::selection
+
+
+## Day - 20 [27/05/2021] -- CSS3 Advance
+1. Button hover effects -- 4 types
+
+## Day - 21 [28/05/2021] -- CSS3 Advance
+1. Image overlay
+2. Transparent text using blend-mode
+3. image clipping
+4. floating text 
+
+## Day - 22 [29/05/2021] -- CSS3 Advance
+1. Thanos snap 
+2. Bouncing balls
+3. Newton's cradle effect
