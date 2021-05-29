@@ -203,3 +203,17 @@
 1. Thanos snap 
 2. Bouncing balls
 3. Newton's cradle effect
+
+## Day - 23 [30/05/2021] -- CSS3 Advance
+1. CSS specificity
+2. CSS units
+3. SASS/SCSS
+
+## Day - 24 [31/05/2021] -- CSS3 Advance
+1. credit card
+2. image frame
+
+## Day - 25 [01/06/2021] -- CSS3 Advance
+1. insta logo 
+2. git logo 
+3. react.js logo 

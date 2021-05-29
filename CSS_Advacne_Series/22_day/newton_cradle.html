@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>newton cradle</title>
+    <style>
+           *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        :root{
+            --main_bg: hsl(204, 64%, 94%);
+            --center_bg: #2980b9;
+            --bg: 71, 81, 82;
+            --box_shadow: 0 14px 28px rgba(0,0,0,0.25),
+                0 10px 10px rgba(0,0,0,0.22);
+            --ball_shadow: 0 14px 28px rgba(0,0,0,0.25),
+                0 10px 10px rgba(0,0,0,0.22);
+        }
+
+        .parent{
+            width: 100vw;
+            height: 100vh;
+            background-color: var(--main_bg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .child{
+            width: 60vw;
+            height: 60vh;
+            border: 5px solid var(--center_bg);
+            border-bottom-width: 50px;
+            box-shadow: var(--box_shadow);
+            display: flex;
+            justify-content: center;
+        }
+
+        .child span{
+            width: 5px;
+            height: 70%;
+            background-color: rgba(var(--bg),0.7);
+            margin: 0 27.5px;
+            position: relative;
+            transform-origin: top;
+        }
+
+        .child span:first-child{
+            animation: leftball 2s linear infinite;
+        }
+        .child span:last-child{
+            animation: rightball 2s linear 1s infinite;
+            /* animation-delay: 1s; */
+        }
+
+        .child span::before{
+            content: '';
+            width: 60px; height: 60px;
+            border-radius: 50%;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgb(var(--bg));
+            position: absolute;
+            box-shadow: var(--box_shadow);
+        }
+
+        @keyframes leftball {
+            0%{
+                transform: rotate(0deg);
+            }
+            25%{
+                transform: rotate(45deg);
+            }
+            50%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(0deg);    
+            }
+        }
+        @keyframes rightball {
+            0%{
+                transform: rotate(0deg);
+            }
+            25%{
+                transform: rotate(-45deg);
+            }
+            50%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(0deg);    
+            }
+        }
+
+        
+    </style>
+</head>
+<body>
+    
+    <div class="parent">
+        <div class="child">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+</body>
+</html>

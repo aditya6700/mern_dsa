@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bouncing balls</title>
+    <style>
+       *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .parent{
+            width: 100vw;
+            height: 100vh;
+            background-color: #CAD3C8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        ul{
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 10px solid #f4a460;
+        }
+        
+        ul li{
+            list-style-type: none;
+            width: 60px; height: 60px;
+            border-radius: 50%;
+            margin: 0 10px;
+            background-color: red;
+            animation: bounce .8s ease-in infinite;
+        }
+
+        ul li:first-child{
+            background-color: #0abde3;
+            animation-delay: 0s;
+        }
+        ul li:nth-child(2){
+            background-color: #ff9f43;
+            animation-delay: 0.3s;
+        }
+        ul li:nth-child(3){
+            background-color: #10ac84;
+            animation-delay: 0.9s;
+        }
+        ul li:nth-child(4){
+            background-color: #f368e0;
+            animation-delay: 0.6s;
+        }
+        ul li:nth-child(5){
+            background-color: #fff200;
+            animation-delay: 1.2s;
+        }
+
+
+        @keyframes bounce {
+            0%{
+                transform: translateY(0px); 
+            }
+            50%{
+                transform: translateY(-150px);    
+            }
+            100%{
+                transform: translateY(0px);
+            } 
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="parent">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+             
+        </ul>
+    </div>
+
+</body>
+</html>

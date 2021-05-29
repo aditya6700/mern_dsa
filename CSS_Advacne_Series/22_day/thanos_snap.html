@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thanos effect</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .parent{
+            height: 100vh;
+            background-color: #ff3f34;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+      
+
+        span{
+            font-size: 200px;
+            color: #fff;
+            font-weight: 900;
+            margin-left: 40px;
+            transition: all .4s linear;
+        }
+
+        .parent span:nth-child(1){
+            transition-delay: 0s;
+        }
+        .parent span:nth-child(2){
+            transition-delay: 0.3s;
+        }
+        .parent span:nth-child(3){
+            transition-delay: 0.6s;
+        }
+        .parent span:nth-child(4){
+            transition-delay: 0.9s;
+        }
+        .parent span:nth-child(5){
+            transition-delay: 1.2s;
+        }
+        .parent span:nth-child(6){
+            transition-delay: 1.5s;
+        }
+
+
+        .parent:hover span{
+            transform: translate(60px,-60px) rotate(5deg);
+            opacity: 0;
+            filter: blur(20px);
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+     
+            <span>t</span>
+            <span>h</span>
+            <span>a</span>
+            <span>n</span>
+            <span>o</span>
+            <span>s</span>
+   
+    </div>
+</body>
+</html>
