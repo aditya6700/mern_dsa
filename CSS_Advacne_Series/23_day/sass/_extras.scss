@@ -1,0 +1,9 @@
+// sass variables
+$mycolor: pink;
+
+// sass mixin and parameter
+@mixin centering($a,$b){
+    display: flex;
+    justify-content: $a;
+    align-items: $b;
+}

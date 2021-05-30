@@ -1,0 +1,87 @@
+@import 'extras';  // including partial
+
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+// sass partials
+// _filename.scss
+
+// sass nesting
+.parent{
+    height: 100vh;
+    width: 100vw;
+    @include centering(center,center);
+    background-color: hsl(169, 76%, 94%);
+
+   font-size: 50px;
+    & .child{
+        width: 50vw;  
+        height: 50vh;
+        background-color: #17a286;
+        box-shadow:
+            0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+            0 .67rem 5.3px rgba(0, 0, 0, 0.048),
+            0 12.5px 1rem rgba(0, 0, 0, 0.06),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+            0 4.1rem 3.34rem rgba(0, 0, 0, 0.086),
+            0 10rem 8rem rgba(0, 0, 0, 0.12);
+        @include centering(center,center);
+
+        // sass operators
+        // * + - 
+        font-size:  5em;
+
+        & h1{
+            font-size: 8rem;
+        }
+
+        & .parent_btn{
+            & a{
+                color: $mycolor;
+            }
+        }
+    }
+}
+
+@media (max-width:998px){
+    html{
+        font-size: 55%;
+    }
+   
+}
+@media (max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
+@media (max-width:468px){
+    html{
+        font-size: 35%;
+    }
+}
+
+
+// CSS units
+// ------------------
+// px
+// %
+// vw 
+// vh 
+
+
+// 16px  1rem
+// 10px  ?
+
+// 10/8.8
+// 0.625
+// 62.5
+
+
+// desktops 16px   62.5%
+// 998px    8.8px  55%
+// 768px    7.5px   45%
