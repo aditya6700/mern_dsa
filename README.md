@@ -211,11 +211,9 @@
 
 ## Day - 24 [31/05/2021] -- CSS3 Advance
 1. credit card
-2. image frame
 
 ## Day - 25 [01/06/2021] -- CSS3 Advance
-1. insta logo 
+1. special frame 
 2. git logo 
-3. react.js logo 
 
 # THE END of season 1

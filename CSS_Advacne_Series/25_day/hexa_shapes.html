@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hexa shape</title>
+    <style>
+        *{
+            padding: 0; margin: 0;
+            box-sizing: border-box;
+        }
+        .parent{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .child{
+            width: 250px;
+            height: 145px;
+            background-color: red;
+            position: relative;
+        }
+
+        .child::before{
+            content: '';
+            width: inherit;
+            height: inherit;
+            position: absolute;
+            top: 0; left: 0;
+            background-color: red;
+            transform: rotate(60deg);
+        }
+        .child::after{
+            content: '';
+            width: inherit;
+            height: inherit;
+            position: absolute;
+            top: 0; left: 0;
+            background-color: red;
+            transform: rotate(-60deg);
+        }
+
+        .child:nth-of-type(2){
+            height: 250px;
+        }
+        .child:nth-of-type(3){
+            height: 100px;
+            /* background-color: #000; */
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">   </div>
+        <div class="child">   </div>
+        <div class="child">   </div>
+    </div>
+</body>
+</html>

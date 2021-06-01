@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.parent {
+  width: 100vw;
+  height: 100vh;
+  background-color: #e3e4f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.parent .child {
+  width: 50rem;
+  height: 50rem;
+  position: relative;
+}
+
+.parent .child > img {
+  -webkit-box-shadow: 0 0 2rem #a7acac;
+          box-shadow: 0 0 2rem #a7acac;
+}
+
+.parent .child > *, .parent .child .layer2 > * {
+  width: 50rem;
+  height: 50rem;
+  position: absolute;
+}
+
+.parent .child .border {
+  border: 2rem solid #eb311f;
+  -webkit-box-shadow: 0 0 1rem #eb311f, inset 0 0 1rem #eb311f;
+          box-shadow: 0 0 1rem #eb311f, inset 0 0 1rem #eb311f;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.parent .child .grid_layer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+}
+
+.parent .child .grid_layer .white_layer {
+  background-color: #fff;
+}
+
+.parent .child .layer2 {
+  mix-blend-mode: multiply;
+}
+/*# sourceMappingURL=spcl_frame.css.map */

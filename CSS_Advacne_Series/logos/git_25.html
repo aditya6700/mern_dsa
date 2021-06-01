@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>git logo</title>
+    <style>
+        *{
+            padding: 0; margin: 0;
+            box-sizing: border-box;
+        }
+        html{
+            font-size: 62.5%;
+        }
+
+        .parent{
+            width: 100vw;
+            height: 100vh;
+            background-color: hsl(11, 96%, 96%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo{
+            width: 15rem;
+            height: 15rem;
+            background-color: #fb4f28;
+            border-radius: 1.2rem;
+            box-shadow:
+                0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+                0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+                0 12.5px 10px rgba(0, 0, 0, 0.06),
+                0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+                0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+                0 100px 80px rgba(0, 0, 0, 0.12);
+            position: relative;    
+            transform: rotate(45deg);
+        }
+        .line1{
+            width: 11rem;
+            height: 1.2rem;
+            background-color: #fff;
+            position: absolute;
+            top: 3.5rem;
+        }
+
+        .line1::before{
+            content: '';
+            width: 3rem;
+            height: 3rem;
+            position: absolute;
+            background-color: #fff;
+            border-radius: 50%;
+            top: -1rem;
+            left: 3rem;
+        }
+
+        .line1::after{
+            content: '';
+            width: 3rem;
+            height: 3rem;
+            position: absolute;
+            background-color: #fff;
+            border-radius: 50%;
+            top: -1rem;
+            right: -1rem;
+        }
+
+        .line2{
+            width: 9rem;
+            height: 1.2rem;
+            background-color: #fff;
+            position: absolute;
+            top: 6.7rem;
+            left: 3.6rem;
+            transform: rotate(45deg);
+        }
+
+        .line2::before{
+            content: '';
+            width: 3rem;
+            height: 3rem;
+            position: absolute;
+            background-color: #fff;
+            border-radius: 50%;
+            top: -1rem;
+            right: -1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="logo">
+            <div class="line1"></div>
+            <div class="line2"></div>
+        </div>
+    </div>
+</body>
+</html>
