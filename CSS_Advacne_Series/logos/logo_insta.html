@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insta Logo</title>
+    <style>
+        *{
+            margin: 0; padding: 0;
+            box-sizing: border-box;
+        }
+        html{
+            font-size: 62.5%;
+        }
+        .center_div{
+            width: 100vw;
+            height: 100vh;
+            background: hsl(293, 56%, 96%);
+            display: grid;
+            place-items: center;
+        }
+        .logo{
+            width: 15rem;
+            height: 15rem;
+           /* background: #d6249f; */
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+            box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+            outline: none;
+            border-radius: 3rem;
+            display: grid;
+            place-items: center;
+        }
+        .square{
+            width: 11rem;
+            height: 11rem;
+            background-color: transparent;
+            border: 1rem solid #fff;
+            border-radius: 3rem;
+            display: grid;
+            place-items: center;
+            position: relative;
+        }
+
+        .square::before{
+            content: '';
+            width: 3.5rem;
+            height: 3.5rem;  
+            background-color: transparent;
+            border: 1rem solid #fff;
+            border-radius: 50%;
+            position: absolute;
+        }
+        .square::after{
+            content: '';
+            width: 1.5rem;
+            height: 1.5rem;  
+            background-color: #fff;
+            border-radius: 50%;
+            position: absolute;
+            top: 1rem; right: 0.7rem;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="center_div">
+        <div class="logo">
+            <div class="square"></div>
+        </div>
+    </div>
+</body>
+</html>

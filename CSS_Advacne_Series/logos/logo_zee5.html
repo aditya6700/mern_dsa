@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zee 5</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <style>
+        *{
+            padding: 0; margin: 0;
+            box-sizing: border-box;
+        }
+        :root{
+            --ring5: #21babf;
+            --ring4: #7fad16;
+            --ring3: #f7b81b;
+            --ring2: #e7571f;
+            --ring1: #b62c81;
+            --main_bg: hsl(0,0%,5%);
+            --center_bg: #000;
+            --text_clr: #fff;
+        }
+        html{
+            font-size: 62.5%;
+        }
+        .outer_div{
+            width: 100vw;
+            height: 100vh;
+            background-color: var(--main_bg);
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        img{
+            flex-basis: 50%;
+            width: 51%;
+            overflow: hidden;
+        }
+        .center_div{
+            flex-basis: 50%;
+            width: 50vw;
+            height: 100vh;
+            background-color: var(--center_bg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .ring5{
+            width: 55rem;
+            height: 55rem;
+            border-radius: 50%;
+            border: 2rem solid transparent;
+            border-left: 2rem solid var(--ring5);
+            border-top: 2rem solid var(--ring5);
+            position: absolute;
+            transform: rotate(-45deg);
+        }
+        .ring4{
+            width: 51rem;
+            height: 51rem;
+            border-radius: 50%;
+            border: 2rem solid transparent;
+            border-left: 2rem solid var(--ring4);
+            border-top: 2rem solid var(--ring4);
+            position: absolute;
+            transform: rotate(-70deg);
+        }
+        .ring3{
+            width: 47rem;
+            height: 47rem;
+            border-radius: 50%;
+            border: 2rem solid transparent;
+            border-left: 2rem solid var(--ring3);
+            border-top: 2rem solid var(--ring3);
+            position: absolute;
+            transform: rotate(-12deg);
+        }
+        .ring2{
+            width: 43rem;
+            height: 43rem;
+            border-radius: 50%;
+            border: 2rem solid transparent;
+            border-left: 2rem solid var(--ring2);
+            border-top: 2rem solid var(--ring2);
+            position: absolute;
+            transform: rotate(-90deg);
+        }
+        .ring1{
+            width: 39rem;
+            height: 39rem;
+            border-radius: 50%;
+            border: 2rem solid transparent;
+            border-left: 2rem solid var(--ring1);
+            border-top: 2rem solid var(--ring1);
+            position: absolute;
+            transform: rotate(-30deg);
+        }
+        .main{
+            width: 35rem;
+            height: 35rem;
+            border-radius: 50%;
+            background-color: #fff;
+            position: relative;
+        }
+        .main h1{
+            font-size: 13rem;
+            letter-spacing: 1rem;
+            font-family: 'Mulish', sans-serif;
+            color: var(--center_bg);
+            position: absolute;
+            top: 50%;
+            right: -1.8rem; 
+            transform: translateY(-50%);
+            font-weight: 900;
+        }
+        .main h1 span{
+            color: var(--text_clr);
+            position: absolute;
+            right: -9rem;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer_div">
+        <img src="./images/Zee5.jpeg" alt="zee5 original logo">
+        <div class="center_div">
+            <div class="ring5"></div>
+            <div class="ring4"></div>
+            <div class="ring3"></div>
+            <div class="ring2"></div>
+            <div class="ring1"></div>
+            <div class="main">
+                <h1>ZEE <span>5</span></h1>
+            </div>
+            <!-- <h1>5</h1> -->
+            
+        </div>
+    </div>
+</body>
+</html>
